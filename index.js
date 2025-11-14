@@ -15,18 +15,18 @@ const empresas = [];
 app.get("/", function (req, res) {
     res.send(`
         <style>
-            body { font-family: Arial; background: #f3f4f6; margin: 0; }
-            header { background: #1e40af; color: white; padding: 18px; text-align: center; font-size: 24px; }
+            body { font-family: Monaco; background: #f8ebe5ff; margin: 0; }
+            header { background: #4a37a0ff; color: white; padding: 18px; text-align: center; font-size: 24px; }
             .container {
                 max-width: 1000px; margin: 35px auto; padding: 50px;
-                border-radius: 8px; box-shadow: 0 0 8px #999;
-                display: flex; flex-direction: column; gap: 20px;
+                border-radius: 10px; box-shadow: 0 0 8px #999;
+                display: flex; flex-direction: column; gap: 30px;
             }
             button {
-                padding: 10px 15px; cursor: pointer; background: #1e40af; color: white; border: none; border-radius: 5px;
+                padding: 15px 20px; cursor: pointer; background: #4a37a0ff; color: white; border: none; border-radius: 10px;
             }
-            button:hover { background: #1e3a8a; }
-            a { text-decoration: none; color: #1e40af; font-weight: bold; }
+            button:hover { background: #4a37a0ff; }
+            a { text-decoration: none; color: #4a37a0ff; font-weight: bold; }
         </style>
 
         <header>SISTEMA DE EMPRESAS</header>
@@ -44,19 +44,19 @@ app.get("/", function (req, res) {
 app.get("/login", function (req, res) {
     res.send(`
         <style>
-            body { font-family: Arial; background: #f3f4f6; margin: 0; }
-            header { background: #1e40af; color: white; padding: 20px; text-align: center; font-size: 26px; }
+            body { font-family: Arial; background: #f8ebe5ff; margin: 0; }
+            header { background: #4a37a0ff; color: white; padding: 20px; text-align: center; font-size: 26px; }
             .container {
                 max-width: 450px; background: white; margin: 40px auto; padding: 30px;
                 border-radius: 6px; box-shadow: 0 0 8px #666;
             }
             input { width: 100%; padding: 10px; margin-top: 5px; margin-bottom: 15px; border-radius: 5px; border: 1px solid #aaa; }
             button {
-                padding: 10px 20px; background: #1e40af; border: none;
+                padding: 10px 20px; background: #4a37a0ff; border: none;
                 color: white; cursor: pointer; border-radius: 5px; width: 100%;
             }
-            button:hover { background: #1e3a8a; }
-            a { display: block; margin-top: 15px; color: #1e40af; }
+            button:hover { background: #4a37a0ff; }
+            a { display: block; margin-top: 15px; color: #4a37a0ff; }
         </style>
 
         <header>LOGIN</header>
