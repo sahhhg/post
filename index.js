@@ -15,8 +15,9 @@ const empresas = [];
 app.get("/", function (req, res) {
     res.send(`
         <style>
-            body { font-family: Monaco; background: #f8ebe5ff; margin: 0; }
+            body { font-family: Monaco; background: #f7ede9ff; margin: 0; }
             header { background: #4a37a0ff; color: white; padding: 18px; text-align: center; font-size: 24px; }
+            h2 {text-align:center;}
             .container {
                 max-width: 1000px; margin: 35px auto; padding: 50px;
                 border-radius: 10px; box-shadow: 0 0 8px #999;
@@ -44,7 +45,7 @@ app.get("/", function (req, res) {
 app.get("/login", function (req, res) {
     res.send(`
         <style>
-            body { font-family: Arial; background: #f8ebe5ff; margin: 0; }
+            body { font-family: Arial; background: #f7ede9ff; margin: 0; }
             header { background: #4a37a0ff; color: white; padding: 20px; text-align: center; font-size: 26px; }
             .container {
                 max-width: 450px; background: white; margin: 40px auto; padding: 30px;
