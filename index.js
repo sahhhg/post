@@ -15,7 +15,7 @@ const empresas = [];
 app.get("/", function (req, res) {
     res.send(`
         <style>
-            body { font-family: Monaco; background: #f7ede9ff; margin: 0; }
+            body { font-family: Monaco; background: #f8efebff; margin: 0; }
             header { background: #4a37a0ff; color: white; padding: 18px; text-align: center; font-size: 24px; }
             h2 {text-align:center;}
             .container {
@@ -45,7 +45,7 @@ app.get("/", function (req, res) {
 app.get("/login", function (req, res) {
     res.send(`
         <style>
-            body { font-family: Arial; background: #f7ede9ff; margin: 0; }
+            body { font-family: Monaco; background: ##f8efebff; margin: 0; }
             header { background: #4a37a0ff; color: white; padding: 20px; text-align: center; font-size: 26px; }
             .container {
                 max-width: 450px; background: white; margin: 40px auto; padding: 30px;
@@ -87,13 +87,13 @@ app.post("/login", function (req, res) {
     if (valido) {
         res.send(`
             <style>
-                body { font-family: Arial; background: #f3f4f6; margin: 0; }
-                header { background: #1e40af; color: white; padding: 20px; text-align: center; font-size: 25px; }
+                body { font-family: Monaco; background: #f8efebff; margin: 0; }
+                header { background: #4a37a0ff; color: white; padding: 20px; text-align: center; font-size: 25px; }
                 .container {
                     max-width: 500px; background: white; margin: 40px auto; padding: 25px;
                     border-radius: 8px; box-shadow: 0 0 8px #777;
                 }
-                a { color: #1e40af; font-weight: bold; }
+                a { color: #4a37a0ff; font-weight: bold; }
             </style>
 
             <header>SUCESSO</header>
@@ -106,13 +106,13 @@ app.post("/login", function (req, res) {
     } else {
         res.send(`
             <style>
-                body { font-family: Arial; background: #f3f4f6; margin: 0; }
-                header { background: #c62828; color: white; padding: 20px; text-align: center; font-size: 25px; }
+                body { font-family: Monaco; background: #f8efebff; margin: 0; }
+                header { background: #c63a28e5; color: white; padding: 20px; text-align: center; font-size: 25px; }
                 .container {
                     max-width: 500px; background: white; margin: 40px auto; padding: 25px;
                     border-radius: 8px; box-shadow: 0 0 8px #777;
                 }
-                a { color: #c62828; font-weight: bold; }
+                a { color: #c63a28e5; font-weight: bold; }
             </style>
 
             <header>ERRO</header>
@@ -128,13 +128,13 @@ app.post("/login", function (req, res) {
 app.get("/logout", function (req, res) {
     res.send(`
         <style>
-            body { font-family: Arial; background: #f3f4f6; margin: 0; }
-            header { background: #1e40af; color: white; padding: 20px; text-align: center; font-size: 25px; }
+            body { font-family: Monaco; background: #f8efebff; margin: 0; }
+            header { background: #4a37a0ff; color: white; padding: 20px; text-align: center; font-size: 25px; }
             .container {
                 max-width: 500px; background: white; margin: 40px auto; padding: 25px;
                 border-radius: 8px; box-shadow: 0 0 8px #777;
             }
-            a { color: #1e40af; font-weight: bold; }
+            a { color: #4a37a0ff; font-weight: bold; }
         </style>
 
         <header>LOGOUT</header>
@@ -149,19 +149,19 @@ app.get("/logout", function (req, res) {
 app.get("/empresa/nova", function (req, res) {
     res.send(`
         <style>
-            body { font-family: Arial; background: #f3f4f6; margin: 0; }
-            header { background: #1e40af; color: white; padding: 20px; text-align: center; font-size: 24px; }
+            body { font-family: Monaco; background: #f8efebff; margin: 0; }
+            header { background: #4a37a0ff; color: white; padding: 20px; text-align: center; font-size: 24px; }
             .container {
                 max-width: 650px; background: white; margin: 40px auto; padding: 30px;
                 border-radius: 8px; box-shadow: 0 0 10px #888;
             }
             input { width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 5px; border: 1px solid #bbb; }
             button {
-                padding: 12px 20px; background: #1e40af; border: none;
+                padding: 12px 20px; background: #4a37a0ff; border: none;
                 color: white; cursor: pointer; border-radius: 5px; width: 100%;
             }
-            button:hover { background: #1e3a8a; }
-            a { color: #1e40af; font-weight: bold; display: block; margin-top: 10px; }
+            button:hover { background: #4a37a0ff; }
+            a { color: #4a37a0ff; font-weight: bold; display: block; margin-top: 10px; }
         </style>
 
         <header>NOVA EMPRESA</header>
@@ -250,13 +250,13 @@ app.post("/empresa", function (req, res) {
 
     res.send(`
         <style>
-            body { font-family: Arial; background: #f9fafb; margin: 0; }
-            header { background: #1e40af; color: white; padding: 20px; text-align: center; font-size: 24px; }
+            body { font-family: Monaco; background: #f8efebff; margin: 0; }
+            header { background: #4a37a0ff; color: white; padding: 20px; text-align: center; font-size: 24px; }
             .container {
                 max-width: 500px; background: white; margin: 40px auto; padding: 20px;
                 border-radius: 8px; box-shadow: 0 0 8px #777;
             }
-            a { color: #1e40af; font-weight: bold; text-decoration: none; }
+            a { color: #4a37a0ff; font-weight: bold; text-decoration: none; }
             a:hover { text-decoration: underline; }
         </style>
 
@@ -286,8 +286,8 @@ app.get("/empresa", function (req, res) {
 
     res.send(`
         <style>
-            body { font-family: Arial; background: #f9fafb; margin: 0; }
-            header { background: #1e40af; color: white; padding: 20px; text-align: center; font-size: 24px; }
+            body { font-family: Monaco; background: #f8efebff; margin: 0; }
+            header { background: #4a37a0ff; color: white; padding: 20px; text-align: center; font-size: 24px; }
             .container {
                 max-width: 900px; background: white; margin: 40px auto; padding: 25px;
                 border-radius: 8px; box-shadow: 0 0 8px #777;
@@ -299,7 +299,7 @@ app.get("/empresa", function (req, res) {
                 text-align: left;
             }
             td { padding: 12px; border-bottom: 1px solid #ccc; }
-            a { color: #1e40af; font-weight: bold; }
+            a { color: #4a37a0ff; font-weight: bold; }
         </style>
 
         <header>EMPRESAS CADASTRADAS</header>
